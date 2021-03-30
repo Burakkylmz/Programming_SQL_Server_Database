@@ -16,6 +16,6 @@ DML stands for data manipulation language, and it's that vocabulary of standard 
 
 ##### After & Instead of Triggers
 
-Within SQL Server, there are two kinds of triggers, INSTEAD OF and AFTER triggers. In almost every way, they really are the same. The only difference is where and when they do their work, but they're working on the same data. So first, let's review the similarities and then look at their differences.
+Within SQL Server, there are two kinds of triggers, INSTEAD OF and AFTER triggers. In almost every way, they really are the same. The only difference is where and when they do their work, but they're working on the same data. So first, let's review the similarities and then look at their differences.  Both INSTEAD OF and AFTER triggers have access to inserted and deleted data, and both execute within the DML transaction that began this event, so the UPDATE statement, the INSERT statement, whatever that was. The real difference comes in these last two points, which speaks to the difference of when the data is actually passed to the trigger and the responsibility of the trigger to do something with that data. In an AFTER trigger, all the constraints have passed, and the data that's passed to the trigger is already considered good.
 
 

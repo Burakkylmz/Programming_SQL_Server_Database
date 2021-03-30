@@ -7,3 +7,11 @@
 Most of the popular relational database systems, SQL Server, Oracle, MySQL and the like, support stored procedures. A stored procedure is nothing more than a piece of code that performs some repetitive set of actions. It performs a particular task by executing a set of actions or queries against the database. The code for the stored procedure is stored in the database and can be executed at any time. Stored procedures are typically used to insert your records into one of more tables, update or delete data from tables, and to generate reports via the SELECT statement. It's actually possible for a stored procedure to do more than one thing. 
 
 > If you want to try the stored procedure examples, first run the contactdb.sql scripts under the src folder in SQL Server to create the sample database. 
+
+### [Trigers & Functions](https://github.com/Burakkylmz/Programming_SQL_Server_Database/tree/master/Triger_Functions)
+
+##### What is a DML Trigger?
+
+DML stands for data manipulation language, and it's that vocabulary of standard T-SQL commands that you already know that attempt to retrieve data, modify data, or manipulate it, things like SELECT and INSERT and UPDATE and DELETE.  Data in a relational database is stored within tables, a concept we're used to, and DML triggers watch for data manipulation events.  So inserting, updating, and deleted. 
+
+
